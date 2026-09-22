@@ -174,9 +174,7 @@ print("\n" + "=" * 70)
 print("DEVICES REQUIRING ATTENTION")
 print("=" * 70)
 
+print(f"Total devices requiring attention: {len(attention_devices)}")
+
 for hostname in attention_devices:
     print(f"- {hostname}")
-
-print("\n" + "=" * 70)
-print("REPORT COMPLETE")
-print("=" * 70)
